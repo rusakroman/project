@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preload"
+      href="font/HelveticaNeueCyr-Light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="font/Comfortaa-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Приют для животных</title>
+    <script defer src="js/jquery-3.6.0.min.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="flex-header">
+          <!-- Див с бургер-меню -->
+          <div class="burger">
+            <button class="header__button" type="submit"></button>
+            <div class="burger-menu">
+              <div class="burger-wrapper">
+                <ul class="burger-menu__list">
+                  <li class="burger-menu__item">
+                    <a href="" class="burger-menu__link">О приюте</a>
+                  </li>
+                  <li class="burger-menu__item">
+                    <a href="" class="burger-menu__link">Наши проекты</a>
+                  </li>
+                  <li class="burger-menu__item">
+                    <a href="" class="burger-menu__link"
+                      >Как ты можешь помочь нам?</a
+                    >
+                  </li>
+                  <li class="burger-menu__item">
+                    <a href="" class="burger-menu__link">Наши питомцы</a>
+                  </li>
+                  <li class="burger-menu__item">
+                    <a href="" class="burger-menu__link">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header__div">
+            <a href="#" class="header__div-logo"></a>
+          </div>
+          <div class="header__contacts cont">
+            <img
+              src="img/call.svg"
+              alt="Телефонная трубка"
+              class="header__contacts-img"
+            />
+            <span class="cont__span">8 (849) 300 - 39 -57</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-main">
+        <div class="container container_width">
+          <div class="main-flex">
+            <!-- левый флекс-контейнер -->
+            <div class="main-flex__div sara">
+              <div class="sara-left">
+                <h2 class="sara__title">
+                  <span class="sara__title_orange">Сара ждёт,</span>когда
+                  найдётся её человек
+                </h2>
+              </div>
+              <div class="sarabutton-div butclick">
+                <button class="butclick__button" type="submit">
+                  <img
+                    src="img/lapa-list.png"
+                    alt=""
+                    class="butclick__button-img"
+                  />
+                  <p class="butclick__description">
+                    Жми на лапку, чтобы помочь!
+                  </p>
+                </button>
+              </div>
+            </div>
+            <!-- Центральный флекс -->
+            <div class="main-dog"></div>
+            <!-- Правый флекс со списком -->
+            <div class="animals">
+              <ul class="animals__list">
+                <li class="animals__item wild">
+                  <button class="wild__button">
+                    <img
+                      src="img/boris.png"
+                      alt="Кот Борис"
+                      class="wild__button-img"
+                    />
+                    <span>Борис</span>
+                  </button>
+                </li>
+                <li class="animals__item wild">
+                  <button class="wild__button">
+                    <img src="img/lui.png" alt="Луи" class="wild__button-img" />
+                    <span class="wild__span">Луи</span>
+                  </button>
+                </li>
+                <li class="animals__item wild">
+                  <button class="wild__button">
+                    <img
+                      src="img/piter.png"
+                      alt="Питер"
+                      class="wild__button-img"
+                    />
+                    <span class="wild__span">Питер</span>
+                  </button>
+                </li>
+                <li class="animals__item wild">
+                  <button class="wild__button">
+                    <img src="img/kenni.png" alt="" class="wild__button-img" />
+                    <span class="wild__span">Кенни</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="container">
+          <div class="about-flex">
+            <div class="about-left">
+              <h2 class="about__title">О приюте</h2>
+              <p class="about__subtitle">
+                Приют "Friendly House" - это целый комплекс для бездомных и
+                брошенных животных. <br />
+                В приюте работает сплочённая команда, которая занимается помощью
+                бездомным животным в течении многих лет. Мы заботимся о качестве
+                жизни наших подопечных и осуществляем профессиональный
+                медицинский уход.
+              </p>
+            </div>
+            <div about-right>
+              <img
+                src="img/about-dog.png"
+                alt="Cобачка к описанию о приюте"
+                class="about-right__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-projects">
+        <div class="container">
+          <div class="wrapper-projects">
+            <div class="grid">
+              <div class="grid-item grid-title">
+                <h2 class="our-projects__title-main">Наши проекты</h2>
+              </div>
+              <div class="grid-item grid-photo-01"></div>
+              <div class="grid-item grid-description-01">
+                <h3 class="our-projects__title">Новый дом для животных</h3>
+                <p class="our-projects__description">
+                  Приют появился практически одновременно с созданием Фонда в
+                  ...
+                </p>
+                <a href="#" class="our-projects__link">
+                  <p class="dop-link">Подробнее</p>
+                  <img
+                    src="img/arrow.svg"
+                    alt="Стрелочка, узнать подробнее"
+                    class="dop-arrow"
+                  />
+                </a>
+              </div>
+              <div class="grid-item grid-foto-right flex-photo">
+                <div class="wrapper-dog">
+                  <p class="dog-text">
+                    Собака лучший друг человека, или.... собаки?
+                  </p>
+                  <a href="#" class="our-projects__link our-projects__link_pos">
+                    <p class="dop-link dop-link_lh">Подробнее</p>
+                    <img
+                      src="img/arrow.svg"
+                      alt="Стрелочка, узнать подробнее"
+                      class="dop-arrow"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="grid-item grid-photo-02"></div>
+              <div class="grid-item grid-description-02">
+                <h3 class="our-projects__title">Маленькие модники</h3>
+                <p class="our-projects__description">
+                  Наши котики и собачки тоже любят наряжаться, чтобы красиво
+                  выглядеть ...
+                </p>
+                <a href="#" class="our-projects__link">
+                  <p class="dop-link">Подробнее</p>
+                  <img
+                    src="img/arrow.svg"
+                    alt="Стрелочка, узнать подробнее"
+                    class="dop-arrow"
+                  />
+                </a>
+              </div>
+              <div class="grid-item grid-photo-03">7</div>
+              <div class="grid-item grid-description-03">
+                <h3 class="our-projects__title">Поиграй со мной!</h3>
+                <p class="our-projects__description">
+                  Новая программа нашего приюта “Поиграй со мной”. Приводите
+                  своих ...
+                </p>
+                <a href="#" class="our-projects__link">
+                  <p class="dop-link">Подробнее</p>
+                  <img
+                    src="img/arrow.svg"
+                    alt="Стрелочка, узнать подробнее"
+                    class="dop-arrow"
+                  />
+                </a>
+              </div>
+              <div class="grid-item grid-foto-right-02">
+                <p class="projects-text">Больше проектов</p>
+                <div class="grid-gallery">
+                  <div class="grid-gallery-item grid-gallery-item01"></div>
+                  <div class="grid-gallery-item grid-gallery-item02"></div>
+                  <div class="grid-gallery-item grid-gallery-item03"></div>
+                  <div class="grid-gallery-item grid-gallery-item04"></div>
+                  <div class="grid-gallery-item grid-gallery-item05"></div>
+                  <div class="grid-gallery-item grid-gallery-item06"></div>
+                  <div class="grid-gallery-item grid-gallery-item07"></div>
+                  <div class="grid-gallery-item grid-gallery-item08"></div>
+                  <div class="grid-gallery-item grid-gallery-item09"></div>
+                  <div class="grid-gallery-item grid-gallery-item10"></div>
+                  <div class="grid-gallery-item grid-gallery-item11"></div>
+                  <div class="grid-gallery-item grid-gallery-item12"></div>
+                </div>
+              </div>
+              <div class="grid-item grid-photo-04"></div>
+              <div class="grid-item grid-description-04">
+                <h3 class="our-projects__title">Конкурс “Лучшее фото”</h3>
+                <p class="our-projects__description">
+                  Приходи к нам в Friendly House и делай классные фотографии
+                  наших животн...
+                </p>
+                <a href="#" class="our-projects__link">
+                  <p class="dop-link">Подробнее</p>
+                  <img
+                    src="img/arrow.svg"
+                    alt="Стрелочка, узнать подробнее"
+                    class="dop-arrow"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="help">
+        <div class="container">
+          <div class="help-div">
+            <h2 class="help__title">Как ты можешь нам помочь?</h2>
+          </div>
+          <ul class="help__list">
+            <li class="help__item">
+              <div class="flex1">
+                <div class="flex-column1">
+                  <h3 class="help__subtitle">Финансово</h3>
+                  <p class="help__description">
+                    Мы будем рады любым пожертвованиям. Деньги пойдут на корм,
+                    лечение и уход, а также, на обустройство территории, где
+                    обитают наши маленькие питомцы.
+                  </p>
+                </div>
+                <div class="flex-column2">
+                  <img
+                    src="img/rabbit.jpg"
+                    alt="Кролик"
+                    class="flex-column2__img flex-column2__img_rabbit"
+                  />
+                  <img
+                    src="img/small-dog.jpg"
+                    alt="Маленькая собака с языком"
+                    class="flex-column2__img flex-column2__img_small-dog"
+                  />
+                  <img
+                    src="img/mops.jpg"
+                    alt="Черный мопсик"
+                    class="flex-column2__img flex-column2__img_mops"
+                  />
+                </div>
+              </div>
+            </li>
+            <li class="help__item">
+              <h3 class="help__subtitle volonter__subtitle">
+                Стать волонтером
+              </h3>
+              <div class="volonters">
+                <img
+                  src="img/volonter-dog.jpg"
+                  alt="Волонтер с собакой"
+                  class="volonters__dog"
+                />
+                <p class="volonters__description">
+                  Наш приют "Friendly House" привлекает волонтеров для оказания
+                  помощи в самых разных форматах! От финансовой помощи и
+                  набирающего популярность интеллектуального волонтерства до
+                  помощи руками. Нам всегда нужна помощь с выгулом подопечных,
+                  уборкой помещений, привезти в приют корм или медикаменты,
+                  помочь с перевозкой животных в клиники, забрать и привезти
+                  вещи и много всего другого. Мы всегда рады любой помощи,
+                  присоединяйтесь к нашей дружной команде! :)
+                </p>
+              </div>
+            </li>
+            <li class="help__item">
+              <div class="flex3">
+                <div class="flexopecun-column">
+                  <h3 class="help__subtitle">Стать опекуном</h3>
+                  <p class="opekun-description">
+                    <span class="opekun-span">
+                      Хотите друга, но не можете взять домой? Проект опеки -
+                      идеальное решение!</span
+                    ><br />
+                    Взять под опеку животное, у которого еще нет опекуна, – это
+                    как завести питомца, о котором всю жизнь мечтал, но не мог
+                    себе этого позволить по каким-либо причинам.
+                  </p>
+                </div>
+                <div class="flex-photos">
+                  <img
+                    src="img/cat.jpg"
+                    alt=""
+                    class="flex-photos__img flex-photos__img_cat"
+                  />
+                  <img
+                    src="img/play-cat.jpg"
+                    alt=""
+                    class="flex-photos__img flex-photos__img_play-cat"
+                  />
+                  <img
+                    src="img/dog-friend.jpg"
+                    alt=""
+                    class="flex-photos__img flex-photos__img_dog-friend"
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="helper">
+            <button class="helper__button">
+              <img
+                src="img/lapa-list.png"
+                alt="Лапа"
+                class="helper__button-img"
+              />
+              <p class="helper__description">Жми на лапку, чтобы помочь!</p>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="communication">
+        <div class="container_form">
+          <div class="form__communication action">
+            <form class="communication__form" action="#">
+              <h2 class="action__title">Ты можешь помочь нам!</h2>
+              <p class="action__subtitle">
+                Хочешь забрать питомца, стать волонтером, или опекуном?
+                <span class="communication__span">Свяжись с нами!</span>
+              </p>
+              <div class="form-flex">
+                <ul class="communication__list">
+                  <li class="communication__item">
+                    <div class="flex1-communication">
+                      <img
+                        src="img/call.svg"
+                        alt=""
+                        class="communication-call"
+                      />
+                      <span class="communication-description"
+                        >8 (849) 300 - 39 -57</span
+                      >
+                    </div>
+                  </li>
+                  <li class="communication__item">
+                    <div class="flex2-communication">
+                      <img
+                        src="img/email.svg"
+                        alt=""
+                        class="communication-email"
+                      />
+                      <span class="communication-description"
+                        >FriendlyHouse@gmail.com</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+                <p class="connection-description">
+                  Или оставь свои контакты и мы сами свяжемся с тобой!
+                </p>
+              </div>
+              <fieldset class="action__fieldset">
+                <fieldset class="tel-fieldset">
+                  <label for="phone">Номер телефона</label>
+                  <input
+                    id="phone"
+                    type="tel"
+                    class="action__input"
+                    value=""
+                    required
+                  />
+                </fieldset>
+                <fieldset class="fieldset-email">
+                  <label for="email">E-mail</label>
+                  <input
+                    id="email"
+                    type="email"
+                    class="action__input"
+                    value=""
+                    required
+                  />
+                </fieldset>
+              </fieldset>
+              <div class="auto-button">
+                <button class="action__button" type="submit">
+                  <img
+                    src="img/lapa-form.png"
+                    alt="Маленькая лапка"
+                    class="action__button-img"
+                  />
+                  <p class="auto-button__description">Отправить</p>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="modalwindow">
+        <form class="modal-form modal" action="#">
+          <button class="cross">
+            <img src="img/cross.svg" alt="" class="cross__img" />
+          </button>
+          <div class="wrapper-form">
+            <h2 class="modal__title">Ты можешь помочь нам!</h2>
+            <p class="modal__subtitle">
+              Хочешь забрать питомца, стать волонтером, или опекуном?
+              <span class="modal__span">Свяжись с нами!</span>
+            </p>
+            <ul class="modal__list">
+              <li class="modal__item">
+                <img src="img/call.svg" alt="Трубка" class="modal__item-img" />
+                <p class="modal__item-text">8 (849) 300 - 39 -57</p>
+              </li>
+              <li class="modal__item">
+                <img src="img/email.svg" alt="Письмо" class="modal__item-img" />
+                <p class="modal__item-text">FriendlyHouse@gmail.com</p>
+              </li>
+            </ul>
+            <p class="modal__subtitle">
+              Или оставь свои контакты и мы сами свяжемся с тобой!
+            </p>
+
+            <fieldset class="modal-fieldset">
+              <fieldset class="modal-phone">
+                <label for="mobphone">Номер телефона</label>
+                <input
+                  id="mobphone"
+                  name="phone"
+                  type="tel"
+                  class="modal__input"
+                  value=""
+                  placeholder="Номер телефона"
+                  required
+                />
+              </fieldset>
+
+              <fieldset class="modal-email">
+                <label for="emailinp">E-mail</label>
+                <input
+                  id="emailinp"
+                  type="email"
+                  name="mail"
+                  class="modal__input"
+                  value=""
+                  placeholder="E-mail"
+                  required
+                />
+              </fieldset>
+            </fieldset>
+            <div class="divmodal">
+              <button class="divmodal__button" type="submit">
+                <img
+                  src="img/lapa-form.png"
+                  alt="Маленькая лапка"
+                  class="divmodal__button-img"
+                />
+                <p class="divmodal__description">Отправить</p>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

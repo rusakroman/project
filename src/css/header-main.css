@@ -1,0 +1,148 @@
+.header {
+  padding-bottom: 50px;
+}
+
+.header-main {
+  background-color: #fff;
+}
+
+.sara__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 137px;
+  width: 426px;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.sara {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sara-left {
+  width: 426px;
+}
+
+.sara__title_orange {
+  font-family: 'Comfortaa-Regular';
+  font-size: 60px;
+  line-height: 60px;
+  color: var(--main-orange, #ff8a00);
+}
+
+.sarabutton-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.butclick__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  height: 155px;
+  border: none;
+  background-color: transparent;
+}
+
+.butclick__button:hover {
+  filter: opacity(0.9);
+}
+
+.butclick__button:active {
+  filter: opacity(0.8);
+}
+
+.butclick__description {
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-orange, #ff8a00);
+  max-width: 180px;
+}
+
+.main-dog {
+  background-image: url('../img/main-dog.png');
+  background-repeat: no-repeat;
+  width: 580px;
+  height: 580px;
+  background-position: center;
+  position: relative;
+  left: -128px;
+  z-index: 1;
+}
+
+.main-flex {
+  display: flex;
+  align-items: center;
+}
+
+.main-flex__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 81px;
+  width: 426px;
+  position: relative;
+  z-index: 4;
+}
+
+.animals {
+  width: 180px;
+}
+
+.animals__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.wild__img {
+  width: 80px;
+  height: 80px;
+}
+
+.sar-div__description {
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-orange, #ff8a00);
+  max-width: 180px;
+}
+
+.animals__div {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  gap: 20px;
+}
+
+.wild__button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 180px;
+  border: none;
+  background-color: transparent;
+}
+
+.wild__button:hover {
+  border: 1px solid var(--main-orange, #ff8a00);
+}
+
+.wild__button:focus {
+  border: 1px solid var(--main-orange, #ff8a00);
+  color: var(--main-orange, #ff8a00);
+  outline: none;
+}
+
+.wild__button-img {
+  width: 80px;
+  height: 80px;
+}

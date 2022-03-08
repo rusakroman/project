@@ -1,0 +1,211 @@
+.grid {
+  display: grid;
+  grid-template-columns: 280px 380px 380px;
+  row-gap: 30px;
+  column-gap: 20px;
+}
+
+.grid-title {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.grid-photo-01 {
+  background-image: url('../img/dog1.jpg');
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 180px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.grid-photo-02 {
+  background-image: url('../img/dog2.jpg');
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 180px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.grid-photo-03 {
+  background-image: url('../img/dog3.jpg');
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 180px;
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.grid-photo-04 {
+  background-image: url('../img/dog4.jpg');
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 180px;
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.grid-description-01 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.grid-description-02 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.grid-description-03 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.grid-description-04 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+.grid-foto-right {
+  background-image: url('../img/dog-right01.jpg');
+  width: 380px;
+  height: 450px;
+  background-repeat: no-repeat;
+  grid-column: 3/4;
+  grid-row: 2/5;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.grid-foto-right-02 {
+  grid-column: 3/4;
+  grid-row: 4/6;
+  margin-left: 100px;
+  padding-top: 58px;
+}
+
+.our-projects__title {
+  margin-bottom: 15px;
+  font-family: HelveticaNeueCyr;
+  font-weight: 550;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.our-projects__description {
+  font-family: 'Helvetica Neue Cyr';
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.dop-link {
+  color: #ff8a00;
+  font-family: 'Helvetica Neue Cyr';
+  font-weight: 550;
+  line-height: 26px;
+}
+
+.our-projects__link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grid-gallery-item {
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 70px;
+}
+
+.grid-gallery-item01 {
+  background-image: url('../img/01.jpg');
+}
+
+.grid-gallery-item02 {
+  background-image: url('../img/02.jpg');
+}
+
+.grid-gallery-item03 {
+  background-image: url('../img/03.jpg');
+}
+
+.grid-gallery-item04 {
+  background-image: url('../img/04.jpg');
+}
+
+.grid-gallery-item05 {
+  background-image: url('../img/05.jpg');
+}
+
+.grid-gallery-item06 {
+  background-image: url('../img/06.jpg');
+}
+
+.grid-gallery-item07 {
+  background-image: url('../img/07.jpg');
+}
+
+.grid-gallery-item08 {
+  background-image: url('../img/08.jpg');
+}
+
+.grid-gallery-item09 {
+  background-image: url('../img/09.jpg');
+}
+
+.grid-gallery-item10 {
+  background-image: url('../img/10.jpg');
+}
+
+.grid-gallery-item11 {
+  background-image: url('../img/11.jpg');
+}
+
+.grid-gallery-item12 {
+  background-image: url('../img/12.jpg');
+}
+
+.projects-text {
+  font-family: 'Helvetica Neue Cyr';
+  font-weight: 550;
+  line-height: 26px;
+  margin-bottom: 22px;
+}
+
+.our-projects__title-main {
+  font-family: 'Comfortaa-Regular';
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.dog-text {
+  font-family: 'Helvetica Neue Cyr';
+  font-weight: 550;
+  font-size: 30px;
+  line-height: 40px;
+  color: #fff;
+  max-width: 300px;
+  margin-bottom: 25px;
+}
+
+.wrapper-dog {
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.our-projects__link_pos {
+  padding-left: 218px;
+}
+
+.dop-link_lh {
+  line-height: 30px;
+}

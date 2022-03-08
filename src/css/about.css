@@ -1,0 +1,26 @@
+.about {
+  background-color: #f2f0f1;
+}
+
+.about__title {
+  font-family: 'Comfortaa-Regular';
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.about-right__img {
+  width: 580px;
+  height: 330px;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 530px;
+}
+
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+}
