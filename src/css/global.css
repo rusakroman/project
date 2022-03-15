@@ -116,3 +116,11 @@ label {
   font-size: 12px;
   line-height: 14px;
 }
+
+figcaption {
+  font-family: 'Helvetica Neue Cyr';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+}
